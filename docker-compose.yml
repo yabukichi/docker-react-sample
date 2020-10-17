@@ -4,11 +4,11 @@ services:
     image: node:12.19.0-alpine
     container_name: node
     environment: 
-    - NODE_ENV=production
+      - NODE_ENV=production
     volumes:
-    - ./next/:/usr/src/app
+      - ./next/:/usr/src/app
     working_dir: /usr/src/app
     command: sh -c "npm run dev"
     ports:
-    - "3000:3000"
+      - "3000:3000"
     tty: true

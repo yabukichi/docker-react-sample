@@ -4,8 +4,10 @@ react/Nextの環境をdockerで用意しました。
 
 ## 初回構築
 ```
-git clone https://github.com/yabukichi/react-docker.git
-cd react-docker
+git clone https://github.com/yabukichi/docker-react-sample.git
+cd docker-react-sample/next/
+npm install
+cd ..
 docker-compose build
 docker-compose up
 ```
